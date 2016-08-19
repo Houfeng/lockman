@@ -1,0 +1,24 @@
+{
+  "name": "lockman",
+  "version": "0.0.5",
+  "description": "一个用于多进程的并发控制锁",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "locker",
+    "lock",
+    "lockman"
+  ],
+  "author": "Houfeng",
+  "license": "MIT",
+  "dependencies": {
+    "cify": "^1.0.2",
+    "ntils": "^1.0.2",
+    "split": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
