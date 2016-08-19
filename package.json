@@ -1,6 +1,6 @@
 {
   "name": "lockman",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "一个用于多进程的并发控制锁",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "lock",
     "lockman"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Houfeng/lockman.git"
+  },
   "author": "Houfeng",
   "license": "MIT",
   "dependencies": {

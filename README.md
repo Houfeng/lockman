@@ -11,10 +11,11 @@ $ npm install lockman --save
 ### 示例
 
 ```js
-const locker = require('lockman');
+var Locker = require('lockman');
 
-locker.lock(function(){
+var locker = new Locker('lock1');
+locker.acquire(function(){
   //相关处理
-  locker.unlock();
+  locker.release();
 });
 ```
