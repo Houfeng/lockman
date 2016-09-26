@@ -1,6 +1,6 @@
 {
   "name": "lockman",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "一个用于多进程的并发控制锁",
   "main": "index.js",
   "scripts": {
