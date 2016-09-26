@@ -1,5 +1,5 @@
 const Client = require('./lib/client');
-const Server = require('./lib/Server');
+const Server = require('./lib/server');
 
 const Locker = Client.Locker;
 
