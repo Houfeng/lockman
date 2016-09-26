@@ -2,6 +2,9 @@
 
 一个用于多进程的并发控制锁
 
+[![npm version](https://badge.fury.io/js/lockman.svg)](http://badge.fury.io/js/lockman)
+[![Build Status](https://travis-ci.org/Houfeng/lockman.svg?branch=master)](https://travis-ci.org/Houfeng/lockman)
+
 ### 安装
 
 ```sh
