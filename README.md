@@ -21,7 +21,7 @@ const Locker = require('lockman');
 let locker = new Locker('demo');
 
 locker.acquire(function(){
-  //此处代码在同一时刻只允许一个进程入执行
+  //此处代码在同一时刻只允许一个进程进入执行
   locker.release();
 });
 ```
