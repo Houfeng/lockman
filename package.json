@@ -1,6 +1,6 @@
 {
   "name": "lockman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个用于多进程的并发控制锁",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "cify": "^1.0.2",
     "ntils": "^1.0.2",
+    "oneport": "^1.0.1",
     "split": "^1.0.0"
   },
   "devDependencies": {

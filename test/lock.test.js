@@ -10,7 +10,7 @@ describe('lockman', function () {
       setTimeout(function () {
         mark++;
         locker1.release();
-      }, 1000);
+      }, 500);
     });
     locker1.acquire(function () {
       mark++;
